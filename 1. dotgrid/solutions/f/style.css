@@ -1,0 +1,14 @@
+#dotgrid {
+  width: 238px; /* 7*30 + 28 padding */
+  padding: 4px;
+}
+
+.dot {
+  /* background-color: #000; */
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+
+  margin: 0 2px; /* JS generateddots have weird padding issues */
+}
